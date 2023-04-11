@@ -39,7 +39,7 @@ SELECT * FROM tb_produtos WHERE preco > 5.00 AND quantidade < 100;
 -- Desabilitar nossa seguranla do sql
 SET SQL_SAFE_UPDATES = 0;
 
--- Atualizar colunas da tabela
+-- Atualizar dados da tabela
 UPDATE tb_produtos SET preco = 5.00 WHERE id = 2;
 
 -- Deletar apaga os dados da tabela
